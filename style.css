@@ -633,3 +633,15 @@ body {
 .button {
   font-family: "Cairo", sans-serif !important;
 }
+
+body,
+html {
+  overflow: hidden !important;
+}
+
+@media screen and (max-width: 992px) {
+  .button {
+    position: relative;
+    font-size: 10em;
+  }
+}
